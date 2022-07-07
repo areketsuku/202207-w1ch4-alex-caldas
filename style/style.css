@@ -4,6 +4,7 @@
 html {
   width: 100vw;
   height: 100vh;
+  font-size: 20px;
 }
 body {
     margin: 0;
@@ -25,6 +26,17 @@ ul {
     align-items: center;
     gap: 15px;
 }
+nav {
+    height: 100px;
+    padding:  10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F87500;
+}
+img {
+    fill: #212529;
+}
 
-#F87500
 #FF8D27
