@@ -19,7 +19,7 @@
         <nav>
             <a href="index.html">
                 <img
-                    src="img/circle-plus-solid.svg"
+                    src="img/circle-minus-solid.svg"
                     alt="Nuevo articulo"
                     width="50"
                     height="50"
@@ -28,25 +28,17 @@
             <h2>2/3 comprados</h2>
         </nav>
         <main>
-            <form action="">
-                <ul>
-                    <li>
-                        <div>
-                            <input type="checkbox" name="" id="0" />
-                            <label for="">Pan</label>
-                        </div>
-                        <div>
-                            <span>
-                                0.75
-                                <span id="divisa">€</span>
-                            </span>
-                            <input type="button" class="close" />
-                        </div>
-                    </li>
-                </ul>
+            <h3>Editar artículo</h3>
+            <form action="" contenteditable="true">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" />
+                <label for="price">Precio:</label>
+                <div>
+                    <input type="text" id="price" />
+                    <span>€</span>
+                </div>
+                <input type="submit" value="Modificar" />
             </form>
-            <hr />
-            <span>1.95€</span>
         </main>
     </body>
 </html>
