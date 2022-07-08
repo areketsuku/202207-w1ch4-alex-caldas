@@ -10,7 +10,7 @@
     <body>
         <header>
             <h1>Lista de la compra</h1>
-            <ul>
+            <ul class="principal-nav">
                 <li>Principal</li>
                 <li>Lista</li>
                 <li>Acerca de</li>
@@ -25,16 +25,16 @@
                     height="50"
                 />
             </a>
-            <h2>2/3 comprados</h2>
+            <h2><span id="buyed">2/3</span>comprados</h2>
         </nav>
         <main>
             <h3>Editar artículo</h3>
             <form action="" contenteditable="true">
                 <label for="name">Nombre:</label>
-                <input type="text" id="name" />
+                <input type="text" id="name" class="edit-article" />
                 <label for="price">Precio:</label>
                 <div>
-                    <input type="text" id="price" />
+                    <input type="text" id="price" class="edit-article" />
                     <span>€</span>
                 </div>
                 <input type="submit" value="Modificar" />
