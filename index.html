@@ -17,7 +17,7 @@
             </ul>
         </header>
         <nav>
-            <a href="index.html">
+            <a href="list.html">
                 <img
                     src="img/circle-plus-solid.svg"
                     alt="Nuevo articulo"
@@ -29,15 +29,40 @@
         </nav>
         <main>
             <form action="">
-                <ul>
-                    <li>
+                <ul class="to-buy-list">
+                    <li class="to-buy-list__object" id="pan">
                         <div>
-                            <input type="checkbox" name="" id="0" />
+                            <input type="checkbox" name="" />
                             <label for="">Pan</label>
                         </div>
                         <div>
                             <span>
                                 0.75
+                                <span id="divisa">€</span>
+                            </span>
+                            <input type="button" class="close" />
+                        </div>
+                    </li>
+                    <li class="to-buy-list__object" id="pan">
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Azúcar</label>
+                        </div>
+                        <div>
+                            <span>
+                                <span id="divisa">€</span>
+                            </span>
+                            <input type="button" class="close" />
+                        </div>
+                    </li>
+                    <li class="to-buy-list__object" id="pan">
+                        <div>
+                            <input type="checkbox" name="" />
+                            <label for="">Leche</label>
+                        </div>
+                        <div>
+                            <span>
+                                1.20
                                 <span id="divisa">€</span>
                             </span>
                             <input type="button" class="close" />

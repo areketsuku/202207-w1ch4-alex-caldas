@@ -20,6 +20,8 @@ header {
 }
 ul {
     list-style: none;
+}
+.principal-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -42,7 +44,7 @@ main {
     padding: 10px;
 }
 form {
-    width: fit-content;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -50,6 +52,9 @@ form {
 input {
     border: 0;
     padding: 10px 20px;
+}
+.edit-article {
+    width: 200px;
 }
 input[type="submit"] {
     width: fit-content;
@@ -62,4 +67,10 @@ input[type="submit"] {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url(/img/xmark-solid.svg);
+}
+.to-buy-list__object {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
