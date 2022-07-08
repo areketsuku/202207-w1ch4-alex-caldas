@@ -57,3 +57,9 @@ input[type="submit"] {
     color: white;
     background-color: #5e81d1;
 }
+.close {
+    padding: 10px 10px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(/img/xmark-solid.svg);
+}
